@@ -21,4 +21,4 @@ before_install:
 notifications:
   email:
     recipients:
-      - bhsbhs235.naver.com
+      - bhsbhs235@naver.com
