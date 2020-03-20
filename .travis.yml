@@ -14,14 +14,6 @@ cache:
 
 script: "./gradlew clean build"
 
-services:
-  - mysql
-
-before_install:
-  #- mysql -u root --password="admin123^^" > test/travis.sql
-  - mysql -e 'CREATE DATABASE user;'
-  - chmod +x gradlew
-
 # CI 실행 완료시 메일로 알람
 notifications:
   email:
