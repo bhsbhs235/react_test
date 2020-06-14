@@ -4,7 +4,7 @@ module.exports = {
     context: path.resolve(__dirname, 'src/main/jsx'),
     entry: {
         main: './MainPage.jsx',
-        page1: './Page1Page.jsx'
+        sub: './SubPage.jsx'
     },
     devtool: 'sourcemaps',
     cache: true,
